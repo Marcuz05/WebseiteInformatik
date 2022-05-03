@@ -1,6 +1,6 @@
 html {
-    background-color: rgb(255, 255, 255);
-    scroll-padding-top: 15%;
+    background-color: #c8ffff;
+    /* scroll-padding-top: 15%; */
     margin: 0;
 }
 
@@ -10,11 +10,10 @@ body {
 
 .banner {
     position: fixed;
-    height: 75px;
+    height: 10%;
     width: 100%;
     background-color: #89CFF0;
     z-index: 999;
-    
 }
 
 .container {
@@ -39,28 +38,29 @@ body {
 
 .side {
     position: fixed;
-    top: 75px;
+    top: 10%;
     height: 100%;
-    width: 200px;
+    width: 15%;
     background-color: #89CFF0;
     z-index: 999;
 }
 
 .main {
-    margin-left: 200px;
-    
+    margin-left: 15%;
+    padding-top: 5%;
 }
 
 .footer {
-    margin-left: 200px;
-    height: 75px;
+    position: absolute;
+    height: 10%;
+    width: 100%;;
     background-color: #89CFF0;
-    z-index: 999;
+    z-index: 1000;
 }
 
 .fadeGradientTop {
     position:fixed;
-    right: 0; top: 75px; left: 200px;
+    right: 0; top: 10%; left: 15%;
     height: 50px;
     background-image: linear-gradient(to top, rgba(255,255,255,0) 40%, #89CFF0 90%);
     z-index: 999;
