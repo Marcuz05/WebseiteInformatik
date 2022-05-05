@@ -3,3 +3,7 @@ Farben:
     -Hellblau: #C8FFFF
     -Hellhellblau (Background): #e2ffff
     -Rot: B90A00
+
+Symbole:
+    ⏷: &#9207
+    ⏶: &#9206

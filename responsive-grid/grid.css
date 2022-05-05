@@ -22,7 +22,16 @@ header {
     z-index: 99;
 }
 
+.header-container {
+    display: grid;
+    height: 10vh;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-areas: 
+        "logo title menu";
+}
+
 .logo {
+    grid-area: logo;
     float: left;
 }
 
@@ -31,13 +40,53 @@ header {
 }
 
 .page-title {
+    justify-self: center;
     float: left;
     margin-left: 2%;
+    grid-area: title;
 }
 
 h1 {
     font-size: 5vh;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.menu {
+    grid-area: menu;
+}
+
+.menu-button {
+    height: 10vh;
+    width: 100%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.desktop {
+    display: block
+}
+
+.mobile {
+    display: none;
+}
+
+.menu-content {
+    display: grid;
+    grid-column: 1;
+    background-color: #C8FFFF;
+    display: none;
+}
+
+.menu-item {
+    width: 100%;
+}
+
+.menu-item:hover {
+    background-color: #89CFF0;
 }
 
 aside {
@@ -77,6 +126,14 @@ footer {
 
     .logo img {
         content: url(/Bilder/Logo-Small.png);
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
     }
 
     aside {
