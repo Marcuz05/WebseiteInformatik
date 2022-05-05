@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+}
+
+.layout-container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 10vh auto 10vh;
+    grid-template-areas: 
+        "header header"
+        "aside main"
+        "footer footer";
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    background-color: #C8FFFF;
+    grid-area: header;
+    z-index: 99;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    height: 10vh;
+}
+
+.page-title {
+    float: left;
+    margin-left: 2%;
+}
+
+h1 {
+    font-size: 5vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+aside {
+    position: fixed;
+    width: 15%;
+    height: 90vh;
+    margin-top: 10vh;
+    background-color: #C8FFFF;
+    grid-area: aside;
+}
+
+main {
+    background-color: #e2ffff;
+    grid-area: main;
+}
+
+footer {
+    background-color: #C8FFFF;
+    grid-area: footer;
+    z-index: 99;
+}
+
+@media only screen and (max-device-width: 510px) , (max-width: 510px) {
+    .layout-container {
+      grid-template-columns: 100%;
+      grid-template-rows: 
+        10vh
+        auto
+        auto
+        10vh;
+      grid-template-areas:
+        "header"
+        "aside"
+        "main"
+        "footer";
+    }
+
+    .logo img {
+        content: url(/Bilder/Logo-Small.png);
+    }
+
+    aside {
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+        background-color: #C8FFFF;
+    }
+  }

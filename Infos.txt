@@ -1,0 +1,5 @@
+Farben:
+    -Blau: #89CFF0
+    -Hellblau: #C8FFFF
+    -Hellhellblau (Background): #e2ffff
+    -Rot: B90A00
