@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+}
+
+.layout-container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 10vh auto 10vh;
+    grid-template-areas: 
+        "header header"
+        "aside main"
+        "footer footer";
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    background-color: #C8FFFF;
+    grid-area: header;
+    z-index: 99;
+}
+
+.header-container {
+    display: grid;
+    height: 10vh;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-areas: 
+        "logo title menu";
+}
+
+.logo {
+    grid-area: logo;
+    float: left;
+}
+
+.logo img {
+    height: 10vh;
+}
+
+.page-title {
+    justify-self: center;
+    float: left;
+    margin-left: 2%;
+    grid-area: title;
+}
+
+.menu {
+    grid-area: menu;
+}
+
+.menu-button {
+    height: 10vh;
+    width: 100%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.menu-header::before {
+    content: "Menu ";
+}
+
+.menu-button:hover ~ .menu-content {
+    display: grid;
+}
+
+.menu-content {
+    display: grid;
+    grid-column: 1;
+    background-color: #C8FFFF;
+    display: none;
+}
+
+.menu-content:hover {
+    display: grid;
+}
+
+.menu-item {
+    width: 100%;
+}
+
+.menu-item:hover {
+    background-color: #89CFF0;
+}
+
+aside {
+    position: fixed;
+    width: 15%;
+    height: 90vh;
+    margin-top: 10vh;
+    background-color: #C8FFFF;
+    grid-area: aside;
+}
+
+main {
+    background-color: #e2ffff;
+    grid-area: main;
+    padding: 1vh 0 0 2vh;
+}
+
+footer {
+    background-color: #C8FFFF;
+    grid-area: footer;
+    z-index: 99;
+}

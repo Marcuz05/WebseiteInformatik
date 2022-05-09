@@ -1,0 +1,31 @@
+@media only screen and (max-device-width: 510px) , (max-width: 510px), (orientation: portrait) {
+    .layout-container {
+      grid-template-columns: 100%;
+      grid-template-rows: 
+        10vh
+        auto
+        auto
+        10vh;
+      grid-template-areas:
+        "header"
+        "aside"
+        "main"
+        "footer";
+    }
+
+    .menu-header::before {
+        content: none;
+    }
+
+    .logo img {
+        content: url(Bilder/Logo-Small.png);
+    }
+
+    aside {
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin-top: 0;
+        background-color: #C8FFFF;
+    }
+}
