@@ -20,17 +20,14 @@ header {
     background-color: #C8FFFF;
     grid-area: header;
     z-index: 99;
-    align-items: center;
 }
 
 .header-container {
     display: grid;
     height: 10vh;
     grid-template-columns: 15% 70% 15%;
-    grid-template-rows: 10vh;
     grid-template-areas: 
         "logo title menu";
-    align-items: center;
 }
 
 .logo {
@@ -62,8 +59,6 @@ header {
     display: grid;
     grid-column: 1;
     grid-row: 1;
-    grid-template-rows: 10vh;
-    align-items: center;
 }
 
 .menu-header:before {
@@ -87,7 +82,7 @@ header {
 
 .menu-item {
     width: 100%;
-    font-size: 1rem;
+    font-size: 2vh;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: black;
     text-decoration: none;
