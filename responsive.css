@@ -12,9 +12,21 @@
         "main"
         "footer";
     }
+    
+
+    .header-container {
+        grid-template-columns: 25% 50% 25%;
+    }
 
     .menu-header::before {
         content: none;
+    }
+
+    .menu-item {
+        font-size: 3.5vw;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: black;
+        text-decoration: none;
     }
 
     .logo img {
