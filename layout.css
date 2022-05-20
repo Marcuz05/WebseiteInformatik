@@ -1,5 +1,5 @@
 html {
-    scroll-padding-top: 10vh;
+    scroll-padding-top: 15vh;
 }
 
 body {
@@ -18,12 +18,12 @@ body {
 }
 
 header {
+    z-index: 99;
     position: fixed;
     width: 100%;
     height: 10vh;
     background-color: #C8FFFF;
     grid-area: header;
-    z-index: 99;
 }
 
 .header-container {
@@ -64,6 +64,7 @@ header {
     grid-column: 1;
     grid-row: 1;
     justify-items: center;
+    z-index: 101;
 }
 
 .menu-header:before {
@@ -97,6 +98,17 @@ header {
     background-color: #89CFF0;
 }
 
+.fadeGradientTop {
+    z-index: -1;
+    position: fixed;
+    background-image: linear-gradient(to top, rgba(255,255,255,0) 40%, #C8FFFF 90%);
+    top: 10%;
+    right: 0;
+    bottom: 0;
+    left: 15%;
+    height: 10vh;
+}
+
 aside {
     position: fixed;
     width: 15%;
@@ -123,5 +135,39 @@ main {
 footer {
     background-color: #C8FFFF;
     grid-area: footer;
-    z-index: 99;
+    z-index: 101;
+}
+
+.footer-container {
+    display: grid;
+    height: 10vh;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-areas: 
+        ". startseite seitenstart ueber ."
+        ". copyright copyright copyright .";
+    justify-items: center;
+}
+
+.footer-to-startpage {
+    grid-area: startseite;
+    font-size: 3.5vh;
+    color: black;
+}
+
+.footer-pagestart {
+    grid-area: seitenstart;
+    font-size: 3.5vh;
+    color: black;
+}
+
+.footer-about {
+    grid-area: ueber;
+    font-size: 3.5vh;
+    color: black;
+}
+
+.copyright {
+    grid-area: copyright;
+    font-size: 2vh;
+    color: gray;
 }
