@@ -1,3 +1,4 @@
+/* Stylesheet für das Basislayout meiner Webseite. */
 html {
     scroll-padding-top: 15vh;
 }
@@ -6,23 +7,22 @@ body {
     margin: 0;
 }
 
+/* Definition der Bereiche der Seite und deren Positionen/Größen */
 .layout-container {
     display: grid;
     height: 100vh;
     grid-template-columns: 15% 85%;
     grid-template-rows: 10vh auto 10vh;
-    grid-template-areas: 
-        "header header"
-        "aside main"
-        "footer footer";
+    grid-template-areas: 'header header' 'aside main' 'footer footer';
 }
 
+/* Style der Objekte aus dem Banner. */
 header {
     z-index: 99;
     position: fixed;
     width: 100%;
     height: 10vh;
-    background-color: #C8FFFF;
+    background-color: #c8ffff;
     grid-area: header;
 }
 
@@ -30,8 +30,7 @@ header {
     display: grid;
     height: 10vh;
     grid-template-columns: 20% 60% 20%;
-    grid-template-areas: 
-        "logo title menu";
+    grid-template-areas: 'logo title menu';
 }
 
 .logo {
@@ -50,11 +49,13 @@ header {
     grid-area: title;
 }
 
+/* Die Menüobjekte aus dem Banner werden hier formatiert. */
 .menu {
     grid-area: menu;
 }
 
 .menu-button {
+    z-index: 101;
     height: 10vh;
     width: 100%;
     background: none;
@@ -64,11 +65,10 @@ header {
     grid-column: 1;
     grid-row: 1;
     justify-items: center;
-    z-index: 101;
 }
 
 .menu-header:before {
-    content: "Menu ";
+    content: 'Menu ';
 }
 
 .menu-button:hover ~ .menu-content {
@@ -78,7 +78,7 @@ header {
 .menu-content {
     display: grid;
     grid-column: 1;
-    background-color: #C8FFFF;
+    background-color: #c8ffff;
     display: none;
 }
 
@@ -95,13 +95,14 @@ header {
 }
 
 .menu-item:hover {
-    background-color: #89CFF0;
+    background-color: #89cff0;
 }
 
+/* Kleiner Farbverlauf unter dem Banner. */
 .fadeGradientTop {
     z-index: -1;
     position: fixed;
-    background-image: linear-gradient(to top, rgba(255,255,255,0) 40%, #C8FFFF 90%);
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0) 40%, #c8ffff 90%);
     top: 10%;
     right: 0;
     bottom: 0;
@@ -109,42 +110,43 @@ header {
     height: 10vh;
 }
 
+/* Style der Objekte aus der Seitenleiste. */
 aside {
     position: fixed;
     width: 15%;
     height: 90vh;
     margin-top: 10vh;
-    background-color: #C8FFFF;
+    background-color: #c8ffff;
     grid-area: aside;
     font-size: 3.5vh;
 }
 
 .side-links a {
+    z-index: 100;
     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: none;
-    z-index: 100;
 }
 
+/* Style der Objekte aus dem hauptbereich. */
 main {
     background-color: #e2ffff;
     grid-area: main;
     padding: 1vh 0 0 2vh;
 }
 
+/* Style der Objekte aus dem Fußbereich. */
 footer {
-    background-color: #C8FFFF;
-    grid-area: footer;
     z-index: 101;
+    background-color: #c8ffff;
+    grid-area: footer;
 }
 
 .footer-container {
     display: grid;
     height: 10vh;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-areas: 
-        ". startseite seitenstart ueber ."
-        ". copyright copyright copyright .";
+    grid-template-areas: '. startseite seitenstart ueber .' '. copyright copyright copyright .';
     justify-items: center;
 }
 

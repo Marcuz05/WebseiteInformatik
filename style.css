@@ -1,3 +1,4 @@
+/* Stylesheet für den Basisstyle meiner Webseite. */
 h1 {
     font-size: 5vh;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -5,8 +6,8 @@ h1 {
 
 h2 {
     font-size: 1.5rem;
-    text-decoration: underline;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
 }
 
 p {
