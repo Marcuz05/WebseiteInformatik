@@ -1,9 +1,13 @@
 @media only screen and (max-device-width: 510px) , (max-width: 510px), (orientation: portrait) {
+    html {
+        scroll-padding-top: 20vh;
+    }
+
     .layout-container {
       grid-template-columns: 100%;
       grid-template-rows: 
         10vh
-        auto
+        10vh
         auto
         10vh;
       grid-template-areas:
@@ -34,10 +38,31 @@
     }
 
     aside {
-        position: relative;
+        position: fixed;
         width: 100%;
-        height: auto;
-        margin-top: 0;
+        height: 10vh;
+        margin-top: 10vh;
         background-color: #C8FFFF;
+
+    }
+
+    .link-list {
+        white-space: nowrap;
+        overflow-x: scroll;
+
+        /* Hide scrollbar for IE, Edge and Firefox */
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .link-list::-webkit-scrollbar {
+        display: none;
+    }
+
+    .side-links {
+        list-style-type: none;
+        /* float: left; */
+        display: inline-block;
     }
 }

@@ -1,3 +1,7 @@
+html {
+    scroll-padding-top: 10vh;
+}
+
 body {
     margin: 0;
 }
@@ -100,6 +104,14 @@ aside {
     margin-top: 10vh;
     background-color: #C8FFFF;
     grid-area: aside;
+    font-size: 3.5vh;
+}
+
+.side-links a {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    z-index: 100;
 }
 
 main {
