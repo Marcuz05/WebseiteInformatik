@@ -48,12 +48,12 @@
         height: 10vh;
         margin-top: 10vh;
         background-color: #C8FFFF;
-
     }
 
     .link-list {
         white-space: nowrap;
         overflow-x: scroll;
+        text-align: center;
 
         /* Scrollbar für IE, Edge und Firefox verstecken. */
         -ms-overflow-style: none; /* IE und Edge */
