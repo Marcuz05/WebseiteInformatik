@@ -1,0 +1,14 @@
+#karten-grid {
+    display: grid;
+    height: auto;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 'karten-bereich listen-bereich';
+}
+
+#karten-container {
+    grid-area: karten-bereich;
+}
+
+.karten-item {
+    width: 100%;
+}
