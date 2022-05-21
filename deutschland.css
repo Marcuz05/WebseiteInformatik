@@ -1,14 +1,25 @@
 #karten-grid {
     display: grid;
-    height: auto;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40%;
     grid-template-areas: 'karten-bereich listen-bereich';
 }
 
 #karten-container {
     grid-area: karten-bereich;
+    display: grid;
+    grid-template-areas: "map";
 }
 
 .karten-item {
+    grid-area: map;
     width: 100%;
+}
+
+.bundesland-karte {
+    z-index: 1;
+    display: none;
+}
+
+#bundesländer-liste {
+    overflow-y: scroll;
 }
