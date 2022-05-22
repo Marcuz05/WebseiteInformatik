@@ -13,7 +13,7 @@ body {
     height: 100vh;
     grid-template-columns: 15% 85%;
     grid-template-rows: 10vh auto 10vh;
-    grid-template-areas: 'header header' 'aside main' 'footer footer';
+    grid-template-areas: 'header header''aside main''footer footer';
 }
 
 /* Style der Objekte aus dem Banner. */
@@ -71,7 +71,7 @@ header {
     content: 'Menu ';
 }
 
-.menu-button:hover ~ .menu-content {
+.menu-button:hover~.menu-content {
     display: grid;
 }
 
@@ -126,8 +126,10 @@ aside {
     overflow-x: scroll;
 
     /* Scrollbar für IE, Edge und Firefox verstecken. */
-    -ms-overflow-style: none; /* IE und Edge */
-    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;
+    /* IE und Edge */
+    scrollbar-width: none;
+    /* Firefox */
 }
 
 /* Scrollbar für Chrome, Safari und Opera verstecken. */
@@ -146,7 +148,7 @@ aside {
 main {
     background-color: #e2ffff;
     grid-area: main;
-    padding: 1vh 0 1vh 2vh;
+    padding: 1vh 0 0 2vh;
 }
 
 /* Style der Objekte aus dem Fußbereich. */
@@ -160,7 +162,7 @@ footer {
     display: grid;
     height: 10vh;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-areas: '. startseite seitenstart ueber .' '. copyright copyright copyright .';
+    grid-template-areas: '. startseite seitenstart ueber .''. copyright copyright copyright .';
     justify-items: center;
 }
 
