@@ -122,6 +122,19 @@ aside {
     font-size: 3.5vh;
 }
 
+.link-list {
+    overflow-x: scroll;
+
+    /* Scrollbar für IE, Edge und Firefox verstecken. */
+    -ms-overflow-style: none; /* IE und Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+/* Scrollbar für Chrome, Safari und Opera verstecken. */
+.link-list::-webkit-scrollbar {
+    display: none;
+}
+
 .side-links a {
     z-index: 101;
     color: black;

@@ -1,0 +1,3769 @@
+{
+    "objectIdFieldName": "OBJECTID",
+    "uniqueIdField": {
+        "name": "OBJECTID",
+        "isSystemMaintained": true
+    },
+    "globalIdFieldName": "",
+    "geometryType": "esriGeometryPolygon",
+    "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+    },
+    "fields": [
+        {
+            "name": "BL",
+            "type": "esriFieldTypeString",
+            "alias": "Bundesland",
+            "sqlType": "sqlTypeOther",
+            "length": 256,
+            "domain": null,
+            "defaultValue": null
+        },
+        {
+            "name": "BL_ID",
+            "type": "esriFieldTypeString",
+            "alias": "Bundesland ID",
+            "sqlType": "sqlTypeOther",
+            "length": 256,
+            "domain": null,
+            "defaultValue": null
+        },
+        {
+            "name": "cases7_bl_per_100k",
+            "type": "esriFieldTypeDouble",
+            "alias": "Bundeslandweite Fälle der letzten 7 Tage/100.000 EW",
+            "sqlType": "sqlTypeOther",
+            "domain": null,
+            "defaultValue": null
+        },
+        {
+            "name": "cases7_bl",
+            "type": "esriFieldTypeInteger",
+            "alias": "Fälle der letzten 7 Tage pro Bundesland",
+            "sqlType": "sqlTypeOther",
+            "domain": null,
+            "defaultValue": null
+        }, {
+            "name": "death7_bl",
+            "type": "esriFieldTypeInteger",
+            "alias": "Todesfälle der letzten 7 Tage pro Bundesland",
+            "sqlType": "sqlTypeOther",
+            "domain": null,
+            "defaultValue": null
+        }, {
+            "name": "last_update",
+            "type": "esriFieldTypeString",
+            "alias": "Aktualisierung",
+            "sqlType": "sqlTypeOther",
+            "length": 256,
+            "domain": null,
+            "defaultValue": null
+        }
+    ],
+    "features": [
+        {
+            "attributes": {
+                "BL": "Schleswig-Holstein",
+                "BL_ID": "1",
+                "cases7_bl_per_100k": 505.655515953107,
+                "cases7_bl": 14719,
+                "death7_bl": 3,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        },
+        {
+            "attributes": {
+                "BL": "Schleswig-Holstein",
+                "BL_ID": "1",
+                "cases7_bl_per_100k": 505.655515953107,
+                "cases7_bl": 14719,
+                "death7_bl": 3,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        },
+        {
+            "attributes": {
+                "BL": "Schleswig-Holstein",
+                "BL_ID": "1",
+                "cases7_bl_per_100k": 505.655515953107,
+                "cases7_bl": 14719,
+                "death7_bl": 3,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        },
+        {
+            "attributes": {
+                "BL": "Schleswig-Holstein",
+                "BL_ID": "1",
+                "cases7_bl_per_100k": 505.655515953107,
+                "cases7_bl": 14719,
+                "death7_bl": 3,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Schleswig-Holstein",
+                "BL_ID": "1",
+                "cases7_bl_per_100k": 505.655515953107,
+                "cases7_bl": 14719,
+                "death7_bl": 3,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Schleswig-Holstein",
+                "BL_ID": "1",
+                "cases7_bl_per_100k": 505.655515953107,
+                "cases7_bl": 14719,
+                "death7_bl": 3,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Schleswig-Holstein",
+                "BL_ID": "1",
+                "cases7_bl_per_100k": 505.655515953107,
+                "cases7_bl": 14719,
+                "death7_bl": 3,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Schleswig-Holstein",
+                "BL_ID": "1",
+                "cases7_bl_per_100k": 505.655515953107,
+                "cases7_bl": 14719,
+                "death7_bl": 3,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Schleswig-Holstein",
+                "BL_ID": "1",
+                "cases7_bl_per_100k": 505.655515953107,
+                "cases7_bl": 14719,
+                "death7_bl": 3,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Schleswig-Holstein",
+                "BL_ID": "1",
+                "cases7_bl_per_100k": 505.655515953107,
+                "cases7_bl": 14719,
+                "death7_bl": 3,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Schleswig-Holstein",
+                "BL_ID": "1",
+                "cases7_bl_per_100k": 505.655515953107,
+                "cases7_bl": 14719,
+                "death7_bl": 3,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Schleswig-Holstein",
+                "BL_ID": "1",
+                "cases7_bl_per_100k": 505.655515953107,
+                "cases7_bl": 14719,
+                "death7_bl": 3,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Schleswig-Holstein",
+                "BL_ID": "1",
+                "cases7_bl_per_100k": 505.655515953107,
+                "cases7_bl": 14719,
+                "death7_bl": 3,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Schleswig-Holstein",
+                "BL_ID": "1",
+                "cases7_bl_per_100k": 505.655515953107,
+                "cases7_bl": 14719,
+                "death7_bl": 3,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Schleswig-Holstein",
+                "BL_ID": "1",
+                "cases7_bl_per_100k": 505.655515953107,
+                "cases7_bl": 14719,
+                "death7_bl": 3,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Hamburg",
+                "BL_ID": "2",
+                "cases7_bl_per_100k": 302.891586296841,
+                "cases7_bl": 5611,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Niedersachsen",
+                "BL_ID": "3",
+                "cases7_bl_per_100k": 432.62749766631,
+                "cases7_bl": 34625,
+                "death7_bl": 9,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bremen",
+                "BL_ID": "4",
+                "cases7_bl_per_100k": 449.913987031891,
+                "cases7_bl": 3060,
+                "death7_bl": 1,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bremen",
+                "BL_ID": "4",
+                "cases7_bl_per_100k": 449.913987031891,
+                "cases7_bl": 3060,
+                "death7_bl": 1,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Nordrhein-Westfalen",
+                "BL_ID": "5",
+                "cases7_bl_per_100k": 335.342195534089,
+                "cases7_bl": 60112,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Hessen",
+                "BL_ID": "6",
+                "cases7_bl_per_100k": 384.878552153658,
+                "cases7_bl": 24221,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Hessen",
+                "BL_ID": "6",
+                "cases7_bl_per_100k": 384.878552153658,
+                "cases7_bl": 24221,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Hessen",
+                "BL_ID": "6",
+                "cases7_bl_per_100k": 384.878552153658,
+                "cases7_bl": 24221,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Hessen",
+                "BL_ID": "6",
+                "cases7_bl_per_100k": 384.878552153658,
+                "cases7_bl": 24221,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Hessen",
+                "BL_ID": "6",
+                "cases7_bl_per_100k": 384.878552153658,
+                "cases7_bl": 24221,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Hessen",
+                "BL_ID": "6",
+                "cases7_bl_per_100k": 384.878552153658,
+                "cases7_bl": 24221,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Hessen",
+                "BL_ID": "6",
+                "cases7_bl_per_100k": 384.878552153658,
+                "cases7_bl": 24221,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Hessen",
+                "BL_ID": "6",
+                "cases7_bl_per_100k": 384.878552153658,
+                "cases7_bl": 24221,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Hessen",
+                "BL_ID": "6",
+                "cases7_bl_per_100k": 384.878552153658,
+                "cases7_bl": 24221,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Hessen",
+                "BL_ID": "6",
+                "cases7_bl_per_100k": 384.878552153658,
+                "cases7_bl": 24221,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Hessen",
+                "BL_ID": "6",
+                "cases7_bl_per_100k": 384.878552153658,
+                "cases7_bl": 24221,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Hessen",
+                "BL_ID": "6",
+                "cases7_bl_per_100k": 384.878552153658,
+                "cases7_bl": 24221,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Hessen",
+                "BL_ID": "6",
+                "cases7_bl_per_100k": 384.878552153658,
+                "cases7_bl": 24221,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Hessen",
+                "BL_ID": "6",
+                "cases7_bl_per_100k": 384.878552153658,
+                "cases7_bl": 24221,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Hessen",
+                "BL_ID": "6",
+                "cases7_bl_per_100k": 384.878552153658,
+                "cases7_bl": 24221,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Hessen",
+                "BL_ID": "6",
+                "cases7_bl_per_100k": 384.878552153658,
+                "cases7_bl": 24221,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Hessen",
+                "BL_ID": "6",
+                "cases7_bl_per_100k": 384.878552153658,
+                "cases7_bl": 24221,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Hessen",
+                "BL_ID": "6",
+                "cases7_bl_per_100k": 384.878552153658,
+                "cases7_bl": 24221,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Hessen",
+                "BL_ID": "6",
+                "cases7_bl_per_100k": 384.878552153658,
+                "cases7_bl": 24221,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Hessen",
+                "BL_ID": "6",
+                "cases7_bl_per_100k": 384.878552153658,
+                "cases7_bl": 24221,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Hessen",
+                "BL_ID": "6",
+                "cases7_bl_per_100k": 384.878552153658,
+                "cases7_bl": 24221,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Hessen",
+                "BL_ID": "6",
+                "cases7_bl_per_100k": 384.878552153658,
+                "cases7_bl": 24221,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Hessen",
+                "BL_ID": "6",
+                "cases7_bl_per_100k": 384.878552153658,
+                "cases7_bl": 24221,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Hessen",
+                "BL_ID": "6",
+                "cases7_bl_per_100k": 384.878552153658,
+                "cases7_bl": 24221,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Hessen",
+                "BL_ID": "6",
+                "cases7_bl_per_100k": 384.878552153658,
+                "cases7_bl": 24221,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Hessen",
+                "BL_ID": "6",
+                "cases7_bl_per_100k": 384.878552153658,
+                "cases7_bl": 24221,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Rheinland-Pfalz",
+                "BL_ID": "7",
+                "cases7_bl_per_100k": 301.508567630565,
+                "cases7_bl": 12357,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Baden-Württemberg",
+                "BL_ID": "8",
+                "cases7_bl_per_100k": 296.441254888412,
+                "cases7_bl": 32914,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Bayern",
+                "BL_ID": "9",
+                "cases7_bl_per_100k": 344.569021603428,
+                "cases7_bl": 45277,
+                "death7_bl": 6,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Saarland",
+                "BL_ID": "10",
+                "cases7_bl_per_100k": 257.827561430948,
+                "cases7_bl": 2537,
+                "death7_bl": 1,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Saarland",
+                "BL_ID": "10",
+                "cases7_bl_per_100k": 257.827561430948,
+                "cases7_bl": 2537,
+                "death7_bl": 1,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Saarland",
+                "BL_ID": "10",
+                "cases7_bl_per_100k": 257.827561430948,
+                "cases7_bl": 2537,
+                "death7_bl": 1,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Saarland",
+                "BL_ID": "10",
+                "cases7_bl_per_100k": 257.827561430948,
+                "cases7_bl": 2537,
+                "death7_bl": 1,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Saarland",
+                "BL_ID": "10",
+                "cases7_bl_per_100k": 257.827561430948,
+                "cases7_bl": 2537,
+                "death7_bl": 1,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Saarland",
+                "BL_ID": "10",
+                "cases7_bl_per_100k": 257.827561430948,
+                "cases7_bl": 2537,
+                "death7_bl": 1,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Brandenburg",
+                "BL_ID": "12",
+                "cases7_bl_per_100k": 196.636127552329,
+                "cases7_bl": 4977,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Brandenburg",
+                "BL_ID": "12",
+                "cases7_bl_per_100k": 196.636127552329,
+                "cases7_bl": 4977,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Brandenburg",
+                "BL_ID": "12",
+                "cases7_bl_per_100k": 196.636127552329,
+                "cases7_bl": 4977,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Brandenburg",
+                "BL_ID": "12",
+                "cases7_bl_per_100k": 196.636127552329,
+                "cases7_bl": 4977,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Brandenburg",
+                "BL_ID": "12",
+                "cases7_bl_per_100k": 196.636127552329,
+                "cases7_bl": 4977,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Brandenburg",
+                "BL_ID": "12",
+                "cases7_bl_per_100k": 196.636127552329,
+                "cases7_bl": 4977,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Brandenburg",
+                "BL_ID": "12",
+                "cases7_bl_per_100k": 196.636127552329,
+                "cases7_bl": 4977,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Brandenburg",
+                "BL_ID": "12",
+                "cases7_bl_per_100k": 196.636127552329,
+                "cases7_bl": 4977,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Brandenburg",
+                "BL_ID": "12",
+                "cases7_bl_per_100k": 196.636127552329,
+                "cases7_bl": 4977,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Brandenburg",
+                "BL_ID": "12",
+                "cases7_bl_per_100k": 196.636127552329,
+                "cases7_bl": 4977,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Brandenburg",
+                "BL_ID": "12",
+                "cases7_bl_per_100k": 196.636127552329,
+                "cases7_bl": 4977,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Brandenburg",
+                "BL_ID": "12",
+                "cases7_bl_per_100k": 196.636127552329,
+                "cases7_bl": 4977,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Brandenburg",
+                "BL_ID": "12",
+                "cases7_bl_per_100k": 196.636127552329,
+                "cases7_bl": 4977,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Brandenburg",
+                "BL_ID": "12",
+                "cases7_bl_per_100k": 196.636127552329,
+                "cases7_bl": 4977,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Brandenburg",
+                "BL_ID": "12",
+                "cases7_bl_per_100k": 196.636127552329,
+                "cases7_bl": 4977,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Brandenburg",
+                "BL_ID": "12",
+                "cases7_bl_per_100k": 196.636127552329,
+                "cases7_bl": 4977,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Brandenburg",
+                "BL_ID": "12",
+                "cases7_bl_per_100k": 196.636127552329,
+                "cases7_bl": 4977,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Brandenburg",
+                "BL_ID": "12",
+                "cases7_bl_per_100k": 196.636127552329,
+                "cases7_bl": 4977,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Mecklenburg-Vorpommern",
+                "BL_ID": "13",
+                "cases7_bl_per_100k": 257.453870002868,
+                "cases7_bl": 4147,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Mecklenburg-Vorpommern",
+                "BL_ID": "13",
+                "cases7_bl_per_100k": 257.453870002868,
+                "cases7_bl": 4147,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Mecklenburg-Vorpommern",
+                "BL_ID": "13",
+                "cases7_bl_per_100k": 257.453870002868,
+                "cases7_bl": 4147,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Mecklenburg-Vorpommern",
+                "BL_ID": "13",
+                "cases7_bl_per_100k": 257.453870002868,
+                "cases7_bl": 4147,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Mecklenburg-Vorpommern",
+                "BL_ID": "13",
+                "cases7_bl_per_100k": 257.453870002868,
+                "cases7_bl": 4147,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Mecklenburg-Vorpommern",
+                "BL_ID": "13",
+                "cases7_bl_per_100k": 257.453870002868,
+                "cases7_bl": 4147,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Mecklenburg-Vorpommern",
+                "BL_ID": "13",
+                "cases7_bl_per_100k": 257.453870002868,
+                "cases7_bl": 4147,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Mecklenburg-Vorpommern",
+                "BL_ID": "13",
+                "cases7_bl_per_100k": 257.453870002868,
+                "cases7_bl": 4147,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Sachsen",
+                "BL_ID": "14",
+                "cases7_bl_per_100k": 162.117220832149,
+                "cases7_bl": 6577,
+                "death7_bl": 3,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Sachsen",
+                "BL_ID": "14",
+                "cases7_bl_per_100k": 162.117220832149,
+                "cases7_bl": 6577,
+                "death7_bl": 3,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Sachsen",
+                "BL_ID": "14",
+                "cases7_bl_per_100k": 162.117220832149,
+                "cases7_bl": 6577,
+                "death7_bl": 3,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Sachsen",
+                "BL_ID": "14",
+                "cases7_bl_per_100k": 162.117220832149,
+                "cases7_bl": 6577,
+                "death7_bl": 3,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Sachsen",
+                "BL_ID": "14",
+                "cases7_bl_per_100k": 162.117220832149,
+                "cases7_bl": 6577,
+                "death7_bl": 3,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Sachsen",
+                "BL_ID": "14",
+                "cases7_bl_per_100k": 162.117220832149,
+                "cases7_bl": 6577,
+                "death7_bl": 3,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Sachsen",
+                "BL_ID": "14",
+                "cases7_bl_per_100k": 162.117220832149,
+                "cases7_bl": 6577,
+                "death7_bl": 3,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Sachsen",
+                "BL_ID": "14",
+                "cases7_bl_per_100k": 162.117220832149,
+                "cases7_bl": 6577,
+                "death7_bl": 3,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Sachsen",
+                "BL_ID": "14",
+                "cases7_bl_per_100k": 162.117220832149,
+                "cases7_bl": 6577,
+                "death7_bl": 3,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Sachsen",
+                "BL_ID": "14",
+                "cases7_bl_per_100k": 162.117220832149,
+                "cases7_bl": 6577,
+                "death7_bl": 3,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Sachsen",
+                "BL_ID": "14",
+                "cases7_bl_per_100k": 162.117220832149,
+                "cases7_bl": 6577,
+                "death7_bl": 3,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Sachsen",
+                "BL_ID": "14",
+                "cases7_bl_per_100k": 162.117220832149,
+                "cases7_bl": 6577,
+                "death7_bl": 3,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Sachsen",
+                "BL_ID": "14",
+                "cases7_bl_per_100k": 162.117220832149,
+                "cases7_bl": 6577,
+                "death7_bl": 3,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Sachsen-Anhalt",
+                "BL_ID": "15",
+                "cases7_bl_per_100k": 211.997703472855,
+                "cases7_bl": 4623,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Sachsen-Anhalt",
+                "BL_ID": "15",
+                "cases7_bl_per_100k": 211.997703472855,
+                "cases7_bl": 4623,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Sachsen-Anhalt",
+                "BL_ID": "15",
+                "cases7_bl_per_100k": 211.997703472855,
+                "cases7_bl": 4623,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Sachsen-Anhalt",
+                "BL_ID": "15",
+                "cases7_bl_per_100k": 211.997703472855,
+                "cases7_bl": 4623,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Sachsen-Anhalt",
+                "BL_ID": "15",
+                "cases7_bl_per_100k": 211.997703472855,
+                "cases7_bl": 4623,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Sachsen-Anhalt",
+                "BL_ID": "15",
+                "cases7_bl_per_100k": 211.997703472855,
+                "cases7_bl": 4623,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Sachsen-Anhalt",
+                "BL_ID": "15",
+                "cases7_bl_per_100k": 211.997703472855,
+                "cases7_bl": 4623,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Sachsen-Anhalt",
+                "BL_ID": "15",
+                "cases7_bl_per_100k": 211.997703472855,
+                "cases7_bl": 4623,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Sachsen-Anhalt",
+                "BL_ID": "15",
+                "cases7_bl_per_100k": 211.997703472855,
+                "cases7_bl": 4623,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Sachsen-Anhalt",
+                "BL_ID": "15",
+                "cases7_bl_per_100k": 211.997703472855,
+                "cases7_bl": 4623,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Sachsen-Anhalt",
+                "BL_ID": "15",
+                "cases7_bl_per_100k": 211.997703472855,
+                "cases7_bl": 4623,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Sachsen-Anhalt",
+                "BL_ID": "15",
+                "cases7_bl_per_100k": 211.997703472855,
+                "cases7_bl": 4623,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Sachsen-Anhalt",
+                "BL_ID": "15",
+                "cases7_bl_per_100k": 211.997703472855,
+                "cases7_bl": 4623,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Sachsen-Anhalt",
+                "BL_ID": "15",
+                "cases7_bl_per_100k": 211.997703472855,
+                "cases7_bl": 4623,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Thüringen",
+                "BL_ID": "16",
+                "cases7_bl_per_100k": 131.400404766071,
+                "cases7_bl": 2786,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Thüringen",
+                "BL_ID": "16",
+                "cases7_bl_per_100k": 131.400404766071,
+                "cases7_bl": 2786,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Thüringen",
+                "BL_ID": "16",
+                "cases7_bl_per_100k": 131.400404766071,
+                "cases7_bl": 2786,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Thüringen",
+                "BL_ID": "16",
+                "cases7_bl_per_100k": 131.400404766071,
+                "cases7_bl": 2786,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Thüringen",
+                "BL_ID": "16",
+                "cases7_bl_per_100k": 131.400404766071,
+                "cases7_bl": 2786,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Thüringen",
+                "BL_ID": "16",
+                "cases7_bl_per_100k": 131.400404766071,
+                "cases7_bl": 2786,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Thüringen",
+                "BL_ID": "16",
+                "cases7_bl_per_100k": 131.400404766071,
+                "cases7_bl": 2786,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Thüringen",
+                "BL_ID": "16",
+                "cases7_bl_per_100k": 131.400404766071,
+                "cases7_bl": 2786,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Thüringen",
+                "BL_ID": "16",
+                "cases7_bl_per_100k": 131.400404766071,
+                "cases7_bl": 2786,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Thüringen",
+                "BL_ID": "16",
+                "cases7_bl_per_100k": 131.400404766071,
+                "cases7_bl": 2786,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Thüringen",
+                "BL_ID": "16",
+                "cases7_bl_per_100k": 131.400404766071,
+                "cases7_bl": 2786,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Thüringen",
+                "BL_ID": "16",
+                "cases7_bl_per_100k": 131.400404766071,
+                "cases7_bl": 2786,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Thüringen",
+                "BL_ID": "16",
+                "cases7_bl_per_100k": 131.400404766071,
+                "cases7_bl": 2786,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Thüringen",
+                "BL_ID": "16",
+                "cases7_bl_per_100k": 131.400404766071,
+                "cases7_bl": 2786,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Thüringen",
+                "BL_ID": "16",
+                "cases7_bl_per_100k": 131.400404766071,
+                "cases7_bl": 2786,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Thüringen",
+                "BL_ID": "16",
+                "cases7_bl_per_100k": 131.400404766071,
+                "cases7_bl": 2786,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Thüringen",
+                "BL_ID": "16",
+                "cases7_bl_per_100k": 131.400404766071,
+                "cases7_bl": 2786,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Thüringen",
+                "BL_ID": "16",
+                "cases7_bl_per_100k": 131.400404766071,
+                "cases7_bl": 2786,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Thüringen",
+                "BL_ID": "16",
+                "cases7_bl_per_100k": 131.400404766071,
+                "cases7_bl": 2786,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Thüringen",
+                "BL_ID": "16",
+                "cases7_bl_per_100k": 131.400404766071,
+                "cases7_bl": 2786,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Thüringen",
+                "BL_ID": "16",
+                "cases7_bl_per_100k": 131.400404766071,
+                "cases7_bl": 2786,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Thüringen",
+                "BL_ID": "16",
+                "cases7_bl_per_100k": 131.400404766071,
+                "cases7_bl": 2786,
+                "death7_bl": 2,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Berlin",
+                "BL_ID": "11",
+                "cases7_bl_per_100k": 261.047223756635,
+                "cases7_bl": 9565,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Berlin",
+                "BL_ID": "11",
+                "cases7_bl_per_100k": 261.047223756635,
+                "cases7_bl": 9565,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Berlin",
+                "BL_ID": "11",
+                "cases7_bl_per_100k": 261.047223756635,
+                "cases7_bl": 9565,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Berlin",
+                "BL_ID": "11",
+                "cases7_bl_per_100k": 261.047223756635,
+                "cases7_bl": 9565,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Berlin",
+                "BL_ID": "11",
+                "cases7_bl_per_100k": 261.047223756635,
+                "cases7_bl": 9565,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Berlin",
+                "BL_ID": "11",
+                "cases7_bl_per_100k": 261.047223756635,
+                "cases7_bl": 9565,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Berlin",
+                "BL_ID": "11",
+                "cases7_bl_per_100k": 261.047223756635,
+                "cases7_bl": 9565,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Berlin",
+                "BL_ID": "11",
+                "cases7_bl_per_100k": 261.047223756635,
+                "cases7_bl": 9565,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Berlin",
+                "BL_ID": "11",
+                "cases7_bl_per_100k": 261.047223756635,
+                "cases7_bl": 9565,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Berlin",
+                "BL_ID": "11",
+                "cases7_bl_per_100k": 261.047223756635,
+                "cases7_bl": 9565,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Berlin",
+                "BL_ID": "11",
+                "cases7_bl_per_100k": 261.047223756635,
+                "cases7_bl": 9565,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }, {
+            "attributes": {
+                "BL": "Berlin",
+                "BL_ID": "11",
+                "cases7_bl_per_100k": 261.047223756635,
+                "cases7_bl": 9565,
+                "death7_bl": 4,
+                "last_update": "22.05.2022, 00:00 Uhr"
+            }
+        }
+    ]
+}

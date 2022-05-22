@@ -52,17 +52,7 @@
 
     .link-list {
         white-space: nowrap;
-        overflow-x: scroll;
         text-align: center;
-
-        /* Scrollbar für IE, Edge und Firefox verstecken. */
-        -ms-overflow-style: none; /* IE und Edge */
-        scrollbar-width: none; /* Firefox */
-    }
-
-    /* Scrollbar für Chrome, Safari und Opera verstecken. */
-    .link-list::-webkit-scrollbar {
-        display: none;
     }
 
     .side-links {

@@ -17,9 +17,18 @@
 
 .bundesland-karte {
     z-index: 1;
-    display: none;
+    /* display: none; */
 }
 
 #bundesländer-liste {
     overflow-y: scroll;
+
+    /* Scrollbar für IE, Edge und Firefox verstecken. */
+    -ms-overflow-style: none; /* IE und Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+/* Scrollbar für Chrome, Safari und Opera verstecken. */
+#bundesländer-liste::-webkit-scrollbar {
+    display: none;
 }
