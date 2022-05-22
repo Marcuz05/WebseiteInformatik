@@ -146,7 +146,7 @@ aside {
 main {
     background-color: #e2ffff;
     grid-area: main;
-    padding: 1vh 0 0 2vh;
+    padding: 1vh 0 1vh 2vh;
 }
 
 /* Style der Objekte aus dem Fußbereich. */
@@ -167,18 +167,21 @@ footer {
 .footer-to-startpage {
     grid-area: startseite;
     font-size: 3.5vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: black;
 }
 
 .footer-pagestart {
     grid-area: seitenstart;
     font-size: 3.5vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: black;
 }
 
 .footer-about {
     grid-area: ueber;
     font-size: 3.5vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: black;
 }
 

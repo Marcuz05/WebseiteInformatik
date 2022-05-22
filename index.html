@@ -25,9 +25,9 @@
                         </div>
                         <div class="menu-content">
                             <a href="index.html" class="menu-item">> Startseite</a>
-                            <a href="deutschland.html" class="menu-item">Deutschland</a>
-                            <a href="schleswig-hollstein.html" class="menu-item">Schleswig-Hollstein</a>
-                            <a href="hamburg.html" class="menu-item">Hamburg</a>
+                            <a href="Deutschland/inzidenz.html" class="menu-item">Inzidenz</a>
+                            <a href="Deutschland/coronafaelle.html" class="menu-item">Coronafälle</a>
+                            <a href="Deutschland/todesfaelle.html" class="menu-item">Todesfälle</a>
                             <a href="about.html" class="menu-item">Über</a>
                         </div>
                     </div>
@@ -39,8 +39,8 @@
             <aside role="navigation">
                 <nav>
                     <ul class="link-list">
-                        <li class="side-links"><a href="#willkommen">Willkommen</a></li>
-                        <li class="side-links"><a href="#funktion">Funktion</a></li>
+                        <li class="side-links"><a href="#welcome">Willkommen</a></li>
+                        <li class="side-links"><a href="#function">Funktion</a></li>
                         <li class="side-links"><a href="#rights">Rechtliches</a></li>
                         <li class="side-links"><a href="#content">Inhalt</a></li>
                     </ul>
@@ -60,8 +60,14 @@
                 <section id="function">
                     <h2 id="funktion">Funktion</h2>
                     <p>
-                        Damit diese Seite funktioniert und Ihnen die aktuellsten Daten präsentieren kann, greift sie auf die vom Robert-Koch-Institut (RKI) bereitgestellten Daten zu.
-                        Dies geschieht mit Hilfe einer <a href="https://github.com/marlon360/rki-covid-api" target="_blank">API</a>, welche durch <a href="https://github.com/marlon360" target="_blank">Marlon Lückert</a> bereitgestellt wird.
+                        Damit diese Seite funktioniert und Ihnen die aktuellsten Daten präsentieren kann, greift sie auf die vom
+                        <a href="https://www.rki.de/DE/Home/homepage_node.html" target="_blank">Robert-Koch-Institut (RKI)</a>
+                        bereitgestellten Daten zu.
+                        Dies geschieht mit Hilfe einer
+                        <a href="https://services7.arcgis.com/mOBPykOjAyBO2ZKk/arcgis/rest/services/RKI_Landkreisdaten/FeatureServer/0/query?where=1%3D1&outFields=BL,BL_ID,cases7_bl_per_100k,cases7_bl,death7_bl,last_update&returnGeometry=false&outSR=4326&f=json" target="_blank">API</a>
+                        , welche durch das 
+                        <a href="https://www.rki.de/DE/Home/homepage_node.html" target="_blank">RKI</a>
+                        bereitgestellt wird.
                         Dadurch ist es möglich Ihnen immer die aktuellsten offiziellen Daten zu bieten, ohne diese aufwändig einpflegen zu müssen.
                     </p>
                 </section>
@@ -78,10 +84,10 @@
                     <p>
                         So. Genug der Vorrede. <br>
                         Diese Webseite umfasst natürlich mehr als diese Informations/Startseite.
-                        Die weiteren Seiten können Sie entweder über das Menü (≡) im Banner erreichen, oder Sie verwenden zur Navigation die folgenden Links: <br>
-                        <a href="deutschland.html">Deutschland</a> <br>
-                        <a href="schleswig-hollstein.html">Schleswig-Hollstein</a> <br>
-                        <a href="hamburg.html">Hamburg</a>
+                        Die weiteren Seiten können Sie entweder über das Menü (&#8801) im Banner erreichen, oder Sie verwenden zur Navigation die folgenden Links: <br>
+                        <a href="Deutschland/inzidenz.html">Inzidenz</a> <br>
+                        <a href="Deutschland/coronafaelle.html">Coronafälle</a> <br>
+                        <a href="Deutschland/todesfaelle.html">Todesfälle</a>
                     </p>
                 </section>
             </main>
