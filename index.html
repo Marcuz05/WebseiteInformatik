@@ -6,120 +6,109 @@
         <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="layout.css" />
         <link rel="stylesheet" href="responsive.css">
+        
+        <link rel="icon" type="image/x-icon" href="Bilder/Logo-Small.png">
     </head>
 
     <body>
         <div class="layout-container">
+            <!-- ==== Hier beginnt der Header ==== -->
             <header role="banner">
                 <div class="header-container">
                     <a href="index.html" class="logo">
                         <img src="Bilder/Logo-Big.png" alt="Corona Aktuell">
                     </a>
-                    <h1 class="page-title">
-                        Startseite
-                    </h1>
+                    <h1 class="page-title">Startseite</h1>
                     <div role="navigation" class="menu">
                         <div class="menu-button">
                             <h1 class="menu-header">&#8801</h1>
                         </div>
                         <div class="menu-content">
-                            <a href="" class="menu-item">Deutschland</a>
-                            <a href="" class="menu-item">Schleswig-Hollstein</a>
-                            <a href="" class="menu-item">Hamburg</a>
+                            <a href="index.html" class="menu-item">> Startseite</a>
+                            <a href="Deutschland/inzidenz.html" class="menu-item">Inzidenz</a>
+                            <a href="Deutschland/coronafaelle.html" class="menu-item">Coronafälle</a>
+                            <a href="Deutschland/todesfaelle.html" class="menu-item">Todesfälle</a>
+                            <a href="about.html" class="menu-item">Über</a>
                         </div>
                     </div>
                 </div>
+                <div class="fadeGradientTop" >
             </header>
 
+            <!-- ==== Hier beginnt die Seitennavigation ==== -->
             <aside role="navigation">
                 <nav>
-                    <a href="">Verweis 1</a>
-                    <br>
-                    <a href="">Verweis 2</a>
-                    <br>
-                    <a href="">Verweis 3</a>
-                    <br>
-                    <a href="">Verweis 4</a>
-                    <br>
-                    <a href="">Verweis 5</a>
-                    <br>
-                    <a href="">Verweis 6</a>
-                    <br>
+                    <ul class="link-list">
+                        <li class="side-links"><a href="#welcome">Willkommen</a></li>
+                        <li class="side-links"><a href="#function">Funktion</a></li>
+                        <li class="side-links"><a href="#information">Informationen</a></li>
+                        <li class="side-links"><a href="#rights">Rechtliches</a></li>
+                        <li class="side-links"><a href="#content">Inhalt</a></li>
+                    </ul>
                 </nav>
             </aside>
 
-            <main>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
-                <p>Hey</p>
+            <!-- ==== Hier beginnt der Hauptteil ==== -->
+            <main role="main">
+                <section id="welcome">
+                    <h2 id="willkommen">Willkommen</h2>
+                    <p>
+                        Herzlich willkommen auf "Corona Aktuell". <br>
+                        Dies ist eine Seite, welche Ihnen die Übersicht über die aktuelle Coronalage ermöglichen soll. <br>
+                        Ich hoffen, die Seite hilft Ihnen weiter und Sie bleiben gesund.
+                    </p>
+                </section>
+                <section id="function">
+                    <h2 id="funktion">Funktion</h2>
+                    <p>
+                        Damit diese Seite funktioniert und Ihnen die aktuellsten Daten präsentieren kann, greift sie auf die vom
+                        <a href="https://www.rki.de/DE/Home/homepage_node.html" target="_blank">Robert-Koch-Institut (RKI)</a>
+                        bereitgestellten Daten zu.
+                        Dies geschieht mit Hilfe einer
+                        <a href="https://services7.arcgis.com/mOBPykOjAyBO2ZKk/arcgis/rest/services/RKI_Landkreisdaten/FeatureServer/0/query?where=1%3D1&outFields=BL,BL_ID,cases7_bl_per_100k,cases7_bl,death7_bl,last_update&returnGeometry=false&outSR=4326&f=json" target="_blank">API</a>
+                        , welche durch das 
+                        <a href="https://www.rki.de/DE/Home/homepage_node.html" target="_blank">RKI</a>
+                        bereitgestellt wird.
+                        Dadurch ist es möglich Ihnen immer die aktuellsten offiziellen Daten zu bieten, ohne diese aufwändig einpflegen zu müssen.
+                    </p>
+                </section>
+                <section id="inforamtion">
+                    <h2 id="informationen">Informationen</h2>
+                    <p>
+                        Dieses Projekt hat sich als umfangreicher erwiesen, als erwartet und ich hatte an einigen Stellen immer wieder mit Rückschlägen und Problemen zu kämpfen,
+                        weswegen sich hier nun nur auf wenige Nenngrößen bezogen wurde und diese nur im bundesweiten Überblick verglichen werden. <br>
+                        Ich bitten um Ihr Verständnis.
+                    </p>
+                </section>
+                <section id="rights">
+                    <h2 id="rechtliches">Rechtliches</h2>
+                    <p>
+                        Auch, wenn es sich hier "nur" um ein Schulprojekt handelt sind jedoch alle Grafiken selbst erstellt, sodass die Rechte an diesen Bildern bei dem Ersteller (mir) liegen, sodass diese hier ihre freie Verwendung finden können.
+                        Wenn Sie ebenfalls die auf dieser Seite verwendeten Grafiken verwenden wollen, können sie dies aber bedenkenlos tun. <br>
+                        Die Grafiken stehen zur freien verfügung. 
+                    </p>
+                </section>
+                <section id="content">
+                    <h2 id="inhalt">Inhalt</h2>
+                    <p>
+                        So. Genug der Vorrede. <br>
+                        Diese Webseite umfasst natürlich mehr als diese Informations/Startseite.
+                        Die weiteren Seiten können Sie entweder über das Menü (&#8801) im Banner erreichen, oder Sie verwenden zur Navigation die folgenden Links: <br>
+                        <a href="Deutschland/inzidenz.html">Inzidenz</a> <br>
+                        <a href="Deutschland/coronafaelle.html">Coronafälle</a> <br>
+                        <a href="Deutschland/todesfaelle.html">Todesfälle</a>
+                    </p>
+                </section>
             </main>
 
+            <!-- ==== Hier beginnt der Fußbereich ==== -->
             <footer>
-                <p>Footer :)</p>
+                <div class="footer-container">
+                    <a href="index.html" class="footer-to-startpage">Startseite</a>
+                    <a href="#" class="footer-pagestart">Seitenstart</a>
+                    <a href="about.html" class="footer-about">Über</a>
+                    <p class="copyright">&#169; Markus Richter</p>
+                </div>
             </footer>
         </div>
     </body>

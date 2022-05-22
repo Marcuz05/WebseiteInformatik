@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8" />
+        <title>Inzidenz - Deutschland</title>
+        <link rel="stylesheet" href="../style.css" />
+        <link rel="stylesheet" href="../layout.css" />
+        <link rel="stylesheet" href="../responsive.css">
+        <link rel="stylesheet" href="deutschland.css">
+
+        <script src="inzidenz.js"></script>
+        
+        <link rel="icon" type="image/x-icon" href="../Bilder/Logo-Small.png">
+    </head>
+
+    <body>
+        <div class="layout-container">
+            <!-- ==== Hier beginnt der Header ==== -->
+            <header role="banner">
+                <div class="header-container">
+                    <a href="../index.html" class="logo">
+                        <img src="../Bilder/Logo-Big.png" alt="Corona Aktuell">
+                    </a>
+                    <h1 class="page-title">Inzidenz</h1>
+                    <div role="navigation" class="menu">
+                        <div class="menu-button">
+                            <h1 class="menu-header">&#8801</h1>
+                        </div>
+                        <div class="menu-content">
+                            <a href="../index.html" class="menu-item">Startseite</a>
+                            <a href="inzidenz.html" class="menu-item">> Inzidenz</a>
+                            <a href="coronafaelle.html" class="menu-item">Coronafälle</a>
+                            <a href="todesfaelle.html" class="menu-item">Todesfälle</a>
+                            <a href="../about.html" class="menu-item">Über</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="fadeGradientTop" >
+            </header>
+
+            <!-- ==== Hier beginnt die Seitennavigation ==== -->
+            <aside role="navigation">
+                <nav>
+                    <ul class="link-list">
+                        <li class="side-links"><a href="#description">Beschreibung</a></li>
+                        <li class="side-links"><a href="#map">Karte</a></li>
+                    </ul>
+                </nav>
+            </aside>
+
+            <!-- ==== Hier beginnt der Hauptteil ==== -->
+            <main role="main">
+                <section id="description">
+                    <h2 id="beschreibung">Beschreibung</h2>
+                    <p>
+                        Die Inzidenz beschreibt die Anzahl an Coronafällen in einem Bundesland, innerhalb der letzten 7 Tage, bezogen auf 100.000 Einwohner.
+                        Das wird gemacht, um trotz der unterschiedlichen Einwohnerzahlen der verschiedenen Bundesländer einen Vergleichswert zu erhalten.
+                        Diese wird dann als Entwicklungswert über den betrachteten zeitraum verwendet. <br>
+                        Die Inzidenz war während der Corona Pandemie in Deutschland lange Zeit die wichtigste Kenngröße, was den Beschluss von Lockerungen anging. 
+                    </p>    
+                </section>
+                <section id="map">
+                    <h2 id="karten-header">Karte</h2>
+                    <div id="karten-grid">
+                        <div id="karten-container">
+                            <img src="../Bilder/Karten/MapBackground.png" alt="" id="background" class="karten-item">
+                            <img src="../Bilder/Karten/SH.png" alt="" id="sh-map" class="karten-item bundesland-karte">
+                            <img src="../Bilder/Karten/HH.png" alt="" id="hh-map" class="karten-item bundesland-karte">
+                            <img src="../Bilder/Karten/NI.png" alt="" id="ni-map" class="karten-item bundesland-karte">
+                            <img src="../Bilder/Karten/HB.png" alt="" id="hb-map" class="karten-item bundesland-karte">
+                            <img src="../Bilder/Karten/NW.png" alt="" id="nw-map" class="karten-item bundesland-karte">
+                            <img src="../Bilder/Karten/HE.png" alt="" id="he-map" class="karten-item bundesland-karte">
+                            <img src="../Bilder/Karten/RP.png" alt="" id="rp-map" class="karten-item bundesland-karte">
+                            <img src="../Bilder/Karten/BW.png" alt="" id="bw-map" class="karten-item bundesland-karte">
+                            <img src="../Bilder/Karten/BY.png" alt="" id="by-map" class="karten-item bundesland-karte">
+                            <img src="../Bilder/Karten/SL.png" alt="" id="sl-map" class="karten-item bundesland-karte">
+                            <img src="../Bilder/Karten/BE.png" alt="" id="be-map" class="karten-item bundesland-karte">
+                            <img src="../Bilder/Karten/BB.png" alt="" id="bb-map" class="karten-item bundesland-karte">
+                            <img src="../Bilder/Karten/MV.png" alt="" id="mv-map" class="karten-item bundesland-karte">
+                            <img src="../Bilder/Karten/SN.png" alt="" id="sn-map" class="karten-item bundesland-karte">
+                            <img src="../Bilder/Karten/ST.png" alt="" id="st-map" class="karten-item bundesland-karte">
+                            <img src="../Bilder/Karten/TH.png" alt="" id="th-map" class="karten-item bundesland-karte">
+                        </div>
+                        <div id="bundesländer-liste">
+                            <h3>Inzidenzen:</h3>
+                            <p id="sh-liste">Schleswig-Hollstein: </p>
+                            <p id="hh-liste">Hamburg: </p>
+                            <p id="ni-liste">Niedersachsen: </p>
+                            <p id="hb-liste">Bremen: </p>
+                            <p id="nw-liste">Nordrhein-Westfalen: </p>
+                            <p id="he-liste">Hessen: </p>
+                            <p id="rp-liste">Rheinlan-Pfalz: </p>
+                            <p id="bw-liste">Baden-Württemberg: </p>
+                            <p id="by-liste">Bayern: </p>
+                            <p id="sl-liste">Saarland: </p>
+                            <p id="be-liste">Berlin: </p>
+                            <p id="bb-liste">Brandenburg: </p>
+                            <p id="mv-liste">Mecklenburg-Vorpommern: </p>
+                            <p id="sn-liste">Sachsen: </p>
+                            <p id="st-liste">Sachsen-Anhalt: </p>
+                            <p id="th-liste">Thüringen: </p>
+                            <br>
+                            <p id="last-updated">Stand der Daten: </p>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <!-- ==== Hier beginnt der Fußbereich ==== -->
+            <footer role="contentinfo">
+                <div class="footer-container">
+                    <a href="../index.html" class="footer-to-startpage">Startseite</a>
+                    <a href="#" class="footer-pagestart">Seitenstart</a>
+                    <a href="../about.html" class="footer-about">Über</a>
+                    <p class="copyright">&#169; Markus Richter</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

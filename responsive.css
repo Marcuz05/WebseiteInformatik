@@ -1,31 +1,71 @@
-@media only screen and (max-device-width: 510px) , (max-width: 510px), (orientation: portrait) {
+/* Stylesheet für das responsive Design meiner Webseite. */
+@media only screen and(max-device-width: 510px),
+(max-width: 510px),
+(orientation: portrait) {
+    /* Allgemeine Änderungen */
+    html {
+        scroll-padding-top: 25vh;
+    }
+
+    /* Anpassungen des Layouts */
     .layout-container {
-      grid-template-columns: 100%;
-      grid-template-rows: 
-        10vh
-        auto
-        auto
-        10vh;
-      grid-template-areas:
-        "header"
-        "aside"
-        "main"
-        "footer";
+        grid-template-columns: 100%;
+        grid-template-rows: 10vh 10vh auto 10vh;
+        grid-template-areas: "header" "aside" "main" "footer";
+    }
+
+
+    .header-container {
+        grid-template-columns: 25% 50% 25%;
     }
 
     .menu-header::before {
         content: none;
     }
 
+    .menu-item {
+        font-size: 3.5vw;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: black;
+        text-decoration: none;
+    }
+
     .logo img {
-        content: url(Bilder/Logo-Small.png);
+        content: url('Bilder/Logo-Small.png');
+    }
+
+    .fadeGradientTop {
+        position: fixed;
+        background-image: linear-gradient(to top, rgba(255,255,255,0) 40%, #C8FFFF 90%);
+        top: 20vh;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: 5vh;
     }
 
     aside {
-        position: relative;
+        position: fixed;
         width: 100%;
-        height: auto;
-        margin-top: 0;
+        height: 10vh;
+        margin-top: 10vh;
         background-color: #C8FFFF;
+    }
+
+    .link-list {
+        white-space: nowrap;
+        text-align: center;
+    }
+
+    .side-links {
+        display: inline-block;
+    }
+
+    .footer-container {
+        display: grid;
+        height: 10vh;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-areas: "startseite seitenstart ueber" "copyright copyright copyright";
+        justify-items: center;
     }
 }
