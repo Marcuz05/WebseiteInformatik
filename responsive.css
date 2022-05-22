@@ -4,7 +4,7 @@
 (orientation: portrait) {
     /* Allgemeine Änderungen */
     html {
-        scroll-padding-top: 25vh;
+        scroll-padding-top: 22vh;
     }
 
     /* Anpassungen des Layouts */
@@ -19,7 +19,7 @@
         grid-template-columns: 25% 50% 25%;
     }
 
-    .menu-header::before {
+    .menu-header:before {
         content: none;
     }
 
@@ -59,6 +59,14 @@
 
     .side-links {
         display: inline-block;
+    }
+
+    .side-links:not(.last-link):after {
+        content: " | ";
+    }
+
+    .last-link {
+        padding-right: 40px;
     }
 
     .footer-container {

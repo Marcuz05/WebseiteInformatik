@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
+    <!-- ====== Die Metadaten für diese Seite ====== -->
     <head>
         <meta charset="utf-8" />
         <title>Todesfälle - Deutschland</title>
@@ -13,20 +14,25 @@
         <link rel="icon" type="image/x-icon" href="../Bilder/Logo-Small.png">
     </head>
 
+    <!-- ====== Der Körper der Seite ====== -->
     <body>
         <div class="layout-container">
             <!-- ==== Hier beginnt der Header ==== -->
             <header role="banner">
                 <div class="header-container">
+                    <!-- == Das Logo == -->
                     <a href="../index.html" class="logo">
                         <img src="../Bilder/Logo-Big.png" alt="Corona Aktuell">
                     </a>
+                    <!-- == Der Seitentitel == -->
                     <h1 class="page-title">Todesfälle</h1>
+                    <!-- == Das Dropdown-Menü == -->
                     <div role="navigation" class="menu">
                         <div class="menu-button">
                             <h1 class="menu-header">&#8801</h1>
                         </div>
                         <div class="menu-content">
+                            <!-- == Dropdown Links == -->
                             <a href="../index.html" class="menu-item">Startseite</a>
                             <a href="inzidenz.html" class="menu-item">Inzidenz</a>
                             <a href="coronafaelle.html" class="menu-item">Coronafälle</a>
@@ -35,21 +41,24 @@
                         </div>
                     </div>
                 </div>
+                <!-- == Ein kleiner Farbübergang == -->
                 <div class="fadeGradientTop" >
             </header>
 
             <!-- ==== Hier beginnt die Seitennavigation ==== -->
             <aside role="navigation">
                 <nav>
+                    <!-- == Die Navigationslinks für diese Seite == -->
                     <ul class="link-list">
                         <li class="side-links"><a href="#description">Beschreibung</a></li>
-                        <li class="side-links"><a href="#map">Karte</a></li>
+                        <li class="side-links last-link"><a href="#map">Karte</a></li>
                     </ul>
                 </nav>
             </aside>
 
             <!-- ==== Hier beginnt der Hauptteil ==== -->
             <main role="main">
+                <!-- == In dieser Sektion wird das Thema kurz beschrieben == -->
                 <section id="description">
                     <h2 id="beschreibung">Beschreibung</h2>
                     <p>
@@ -58,46 +67,80 @@
                         Hierbei gilt für die Werte wieder, dass diese auf das gesamte Bundesland, ohne Berücksichtigung der Einwohnerzahl des jeweiligen, bezogen sind.
                     </p>
                 </section>
+                <!-- == Diese Sektion enthält eine sich aktualisierende Deutschlandkarte == -->
                 <section id="map">
                     <h2 id="karten-header">Karte</h2>
                     <div id="karten-grid">
                         <div id="karten-container">
-                            <img src="../Bilder/Karten/MapBackground.png" alt="" id="background" class="karten-item">
-                            <img src="../Bilder/Karten/SH.png" alt="" id="sh-map" class="karten-item bundesland-karte">
-                            <img src="../Bilder/Karten/HH.png" alt="" id="hh-map" class="karten-item bundesland-karte">
-                            <img src="../Bilder/Karten/NI.png" alt="" id="ni-map" class="karten-item bundesland-karte">
-                            <img src="../Bilder/Karten/HB.png" alt="" id="hb-map" class="karten-item bundesland-karte">
-                            <img src="../Bilder/Karten/NW.png" alt="" id="nw-map" class="karten-item bundesland-karte">
-                            <img src="../Bilder/Karten/HE.png" alt="" id="he-map" class="karten-item bundesland-karte">
-                            <img src="../Bilder/Karten/RP.png" alt="" id="rp-map" class="karten-item bundesland-karte">
-                            <img src="../Bilder/Karten/BW.png" alt="" id="bw-map" class="karten-item bundesland-karte">
-                            <img src="../Bilder/Karten/BY.png" alt="" id="by-map" class="karten-item bundesland-karte">
-                            <img src="../Bilder/Karten/SL.png" alt="" id="sl-map" class="karten-item bundesland-karte">
-                            <img src="../Bilder/Karten/BE.png" alt="" id="be-map" class="karten-item bundesland-karte">
-                            <img src="../Bilder/Karten/BB.png" alt="" id="bb-map" class="karten-item bundesland-karte">
-                            <img src="../Bilder/Karten/MV.png" alt="" id="mv-map" class="karten-item bundesland-karte">
-                            <img src="../Bilder/Karten/SN.png" alt="" id="sn-map" class="karten-item bundesland-karte">
-                            <img src="../Bilder/Karten/ST.png" alt="" id="st-map" class="karten-item bundesland-karte">
-                            <img src="../Bilder/Karten/TH.png" alt="" id="th-map" class="karten-item bundesland-karte">
+                            <img src="../Bilder/Karten/MapBackground.png" alt="Hier wäre eine Deutschlandkarte" id="background" class="karten-item">
+                            <img src="../Bilder/Karten/SH.png" alt="Hier wäre eine Deutschlandkarte" id="sh-map" class="karten-item bundesland-karte">
+                            <img src="../Bilder/Karten/HH.png" alt="Hier wäre eine Deutschlandkarte" id="hh-map" class="karten-item bundesland-karte">
+                            <img src="../Bilder/Karten/NI.png" alt="Hier wäre eine Deutschlandkarte" id="ni-map" class="karten-item bundesland-karte">
+                            <img src="../Bilder/Karten/HB.png" alt="Hier wäre eine Deutschlandkarte" id="hb-map" class="karten-item bundesland-karte">
+                            <img src="../Bilder/Karten/NW.png" alt="Hier wäre eine Deutschlandkarte" id="nw-map" class="karten-item bundesland-karte">
+                            <img src="../Bilder/Karten/HE.png" alt="Hier wäre eine Deutschlandkarte" id="he-map" class="karten-item bundesland-karte">
+                            <img src="../Bilder/Karten/RP.png" alt="Hier wäre eine Deutschlandkarte" id="rp-map" class="karten-item bundesland-karte">
+                            <img src="../Bilder/Karten/BW.png" alt="Hier wäre eine Deutschlandkarte" id="bw-map" class="karten-item bundesland-karte">
+                            <img src="../Bilder/Karten/BY.png" alt="Hier wäre eine Deutschlandkarte" id="by-map" class="karten-item bundesland-karte">
+                            <img src="../Bilder/Karten/SL.png" alt="Hier wäre eine Deutschlandkarte" id="sl-map" class="karten-item bundesland-karte">
+                            <img src="../Bilder/Karten/BE.png" alt="Hier wäre eine Deutschlandkarte" id="be-map" class="karten-item bundesland-karte">
+                            <img src="../Bilder/Karten/BB.png" alt="Hier wäre eine Deutschlandkarte" id="bb-map" class="karten-item bundesland-karte">
+                            <img src="../Bilder/Karten/MV.png" alt="Hier wäre eine Deutschlandkarte" id="mv-map" class="karten-item bundesland-karte">
+                            <img src="../Bilder/Karten/SN.png" alt="Hier wäre eine Deutschlandkarte" id="sn-map" class="karten-item bundesland-karte">
+                            <img src="../Bilder/Karten/ST.png" alt="Hier wäre eine Deutschlandkarte" id="st-map" class="karten-item bundesland-karte">
+                            <img src="../Bilder/Karten/TH.png" alt="Hier wäre eine Deutschlandkarte" id="th-map" class="karten-item bundesland-karte">
                         </div>
+                        <!-- == Die Liste der Bundesländer, welche beim drüberhalten der Maus das Bundesland auf der Karte hervorhebt == -->
                         <div id="bundesländer-liste">
                             <h3>Todesfälle:</h3>
-                            <p id="sh-liste">Schleswig-Hollstein: </p>
-                            <p id="hh-liste">Hamburg: </p>
-                            <p id="ni-liste">Niedersachsen: </p>
-                            <p id="hb-liste">Bremen: </p>
-                            <p id="nw-liste">Nordrhein-Westfalen: </p>
-                            <p id="he-liste">Hessen: </p>
-                            <p id="rp-liste">Rheinlan-Pfalz: </p>
-                            <p id="bw-liste">Baden-Württemberg: </p>
-                            <p id="by-liste">Bayern: </p>
-                            <p id="sl-liste">Saarland: </p>
-                            <p id="be-liste">Berlin: </p>
-                            <p id="bb-liste">Brandenburg: </p>
-                            <p id="mv-liste">Mecklenburg-Vorpommern: </p>
-                            <p id="sn-liste">Sachsen: </p>
-                            <p id="st-liste">Sachsen-Anhalt: </p>
-                            <p id="th-liste">Thüringen: </p>
+                            <p id="sh-liste" onmouseover="document.getElementById('sh-map').style.backgroundColor = '#e2ffff85'; document.getElementById('sh-map').style.zIndex = '2'" onmouseleave="document.getElementById('sh-map').style.backgroundColor = '#ffffff00'; document.getElementById('sh-map').style.zIndex = '0'">
+                                Schleswig-Hollstein: 
+                            </p>
+                            <p id="hh-liste" onmouseover="document.getElementById('hh-map').style.backgroundColor = '#e2ffff85'; document.getElementById('hh-map').style.zIndex = '2'" onmouseleave="document.getElementById('hh-map').style.backgroundColor = '#ffffff00'; document.getElementById('hh-map').style.zIndex = '0'">
+                                Hamburg: 
+                            </p>
+                            <p id="ni-liste" onmouseover="document.getElementById('ni-map').style.backgroundColor = '#e2ffff85'; document.getElementById('ni-map').style.zIndex = '2'" onmouseleave="document.getElementById('ni-map').style.backgroundColor = '#ffffff00'; document.getElementById('ni-map').style.zIndex = '0'">
+                                Niedersachsen: 
+                            </p>
+                            <p id="hb-liste" onmouseover="document.getElementById('hb-map').style.backgroundColor = '#e2ffff85'; document.getElementById('hb-map').style.zIndex = '2'" onmouseleave="document.getElementById('hb-map').style.backgroundColor = '#ffffff00'; document.getElementById('hb-map').style.zIndex = '0'">
+                                Bremen: 
+                            </p>
+                            <p id="nw-liste" onmouseover="document.getElementById('nw-map').style.backgroundColor = '#e2ffff85'; document.getElementById('nw-map').style.zIndex = '2'" onmouseleave="document.getElementById('nw-map').style.backgroundColor = '#ffffff00'; document.getElementById('nw-map').style.zIndex = '0'">
+                                Nordrhein-Westfalen: 
+                            </p>
+                            <p id="he-liste" onmouseover="document.getElementById('he-map').style.backgroundColor = '#e2ffff85'; document.getElementById('he-map').style.zIndex = '2'" onmouseleave="document.getElementById('he-map').style.backgroundColor = '#ffffff00'; document.getElementById('he-map').style.zIndex = '0'">
+                                Hessen: 
+                            </p>
+                            <p id="rp-liste" onmouseover="document.getElementById('rp-map').style.backgroundColor = '#e2ffff85'; document.getElementById('rp-map').style.zIndex = '2'" onmouseleave="document.getElementById('rp-map').style.backgroundColor = '#ffffff00'; document.getElementById('rp-map').style.zIndex = '0'">
+                                Rheinlan-Pfalz: 
+                            </p>
+                            <p id="bw-liste" onmouseover="document.getElementById('bw-map').style.backgroundColor = '#e2ffff85'; document.getElementById('bw-map').style.zIndex = '2'" onmouseleave="document.getElementById('bw-map').style.backgroundColor = '#ffffff00'; document.getElementById('bw-map').style.zIndex = '0'">
+                                Baden-Württemberg: 
+                            </p>
+                            <p id="by-liste" onmouseover="document.getElementById('by-map').style.backgroundColor = '#e2ffff85'; document.getElementById('by-map').style.zIndex = '2'" onmouseleave="document.getElementById('by-map').style.backgroundColor = '#ffffff00'; document.getElementById('by-map').style.zIndex = '0'">
+                                Bayern: 
+                            </p>
+                            <p id="sl-liste" onmouseover="document.getElementById('sl-map').style.backgroundColor = '#e2ffff85'; document.getElementById('sl-map').style.zIndex = '2'" onmouseleave="document.getElementById('sl-map').style.backgroundColor = '#ffffff00'; document.getElementById('sl-map').style.zIndex = '0'">
+                                Saarland: 
+                            </p>
+                            <p id="be-liste" onmouseover="document.getElementById('be-map').style.backgroundColor = '#e2ffff85'; document.getElementById('be-map').style.zIndex = '2'" onmouseleave="document.getElementById('be-map').style.backgroundColor = '#ffffff00'; document.getElementById('be-map').style.zIndex = '0'">
+                                Berlin: 
+                            </p>
+                            <p id="bb-liste" onmouseover="document.getElementById('bb-map').style.backgroundColor = '#e2ffff85'; document.getElementById('bb-map').style.zIndex = '2'" onmouseleave="document.getElementById('bb-map').style.backgroundColor = '#ffffff00'; document.getElementById('bb-map').style.zIndex = '0'">
+                                Brandenburg: 
+                            </p>
+                            <p id="mv-liste" onmouseover="document.getElementById('mv-map').style.backgroundColor = '#e2ffff85'; document.getElementById('mv-map').style.zIndex = '2'" onmouseleave="document.getElementById('mv-map').style.backgroundColor = '#ffffff00'; document.getElementById('mv-map').style.zIndex = '0'">
+                                Mecklenburg-Vorpommern: 
+                            </p>
+                            <p id="sn-liste" onmouseover="document.getElementById('sn-map').style.backgroundColor = '#e2ffff85'; document.getElementById('sn-map').style.zIndex = '2'" onmouseleave="document.getElementById('sn-map').style.backgroundColor = '#ffffff00'; document.getElementById('sn-map').style.zIndex = '0'">
+                                Sachsen: 
+                            </p>
+                            <p id="st-liste" onmouseover="document.getElementById('st-map').style.backgroundColor = '#e2ffff85'; document.getElementById('st-map').style.zIndex = '2'" onmouseleave="document.getElementById('st-map').style.backgroundColor = '#ffffff00'; document.getElementById('st-map').style.zIndex = '0'">
+                                Sachsen-Anhalt: 
+                            </p>
+                            <p id="th-liste" onmouseover="document.getElementById('th-map').style.backgroundColor = '#e2ffff85'; document.getElementById('th-map').style.zIndex = '2'" onmouseleave="document.getElementById('th-map').style.backgroundColor = '#ffffff00'; document.getElementById('th-map').style.zIndex = '0'">
+                                Thüringen: 
+                            </p>
                             <br>
                             <p id="last-updated">Stand der Daten: </p>
                         </div>

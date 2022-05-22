@@ -27,6 +27,7 @@
 /* Hier findet die anpassung der Liste mit den Werten statt. */
 #bundesländer-liste {
     overflow-y: scroll;
+    width: fit-content;
 
     /* Scrollbar für IE, Edge und Firefox verstecken. */
     -ms-overflow-style: none; /* IE und Edge */
