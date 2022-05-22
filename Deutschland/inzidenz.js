@@ -116,4 +116,4 @@ function handleResponse() {
 window.addEventListener("load", changeListHeight);
 request.addEventListener("load", handleResponse);
 
-window.addEventListener('resize', changeListHeight);
+window.addEventListener("resize", changeListHeight);
