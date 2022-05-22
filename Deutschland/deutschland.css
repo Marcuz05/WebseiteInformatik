@@ -1,9 +1,13 @@
+/* Stylesheet für alle Seiten, welche die Deutschlandkarte verwenden. */
+
+/* Erstellt das Grid für die Unterteilung der Karte und der Liste. */
 #karten-grid {
     display: grid;
     grid-template-columns: 40%;
     grid-template-areas: 'karten-bereich listen-bereich';
 }
 
+/* Der Kartenbereich wird hier angepasst. */
 #karten-container {
     grid-area: karten-bereich;
     display: grid;
@@ -17,9 +21,10 @@
 
 .bundesland-karte {
     z-index: 1;
-    /* display: none; */
+    filter: grayscale(100);
 }
 
+/* Hier findet die anpassung der Liste mit den Werten statt. */
 #bundesländer-liste {
     overflow-y: scroll;
 

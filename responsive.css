@@ -2,10 +2,12 @@
 @media only screen and(max-device-width: 510px),
 (max-width: 510px),
 (orientation: portrait) {
+    /* Allgemeine Änderungen */
     html {
         scroll-padding-top: 25vh;
     }
 
+    /* Anpassungen des Layouts */
     .layout-container {
         grid-template-columns: 100%;
         grid-template-rows: 10vh 10vh auto 10vh;

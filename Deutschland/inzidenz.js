@@ -1,6 +1,6 @@
-// JavaScript-Datei für die "Deutschland.html" Seite.
+/* ========== JavaScript-Datei für die "Deutschland.html" Seite: ========== */
 
-// Definition und Belegung der Variablen.
+/* ===== Definition und Belegung der Variablen: ===== */
 var requestURL = "https://services7.arcgis.com/mOBPykOjAyBO2ZKk/arcgis/rest/services/RKI_Landkreisdaten/FeatureServer/0/query?where=1%3D1&outFields=BL,BL_ID,cases7_bl_per_100k,cases7_bl,death7_bl,last_update&returnGeometry=false&outSR=4326&f=json";
 
 var request = new XMLHttpRequest();
@@ -10,13 +10,15 @@ request.send();
 
 var hoechsteInzidenz = 1;
 
-// Definition der Funktionen.
+/* ===== Definition der Funktionen: ===== */
+/* Änderung der Listenhöhe, entsprechend der Bildgröße. */
 function changeListHeight() {
     var img = document.getElementById("background");
     var currHeight = img.clientHeight;
     document.getElementById("bundesländer-liste").style.height = currHeight + "px";
 }
 
+/* Auswertung und Verwendung der von der Api erhaltenen Daten. */
 function compileData(id, inzidenz) {
     drehwinkel = (1 - (inzidenz / hoechsteInzidenz)) * 90;
     switch (id) {
@@ -88,6 +90,7 @@ function compileData(id, inzidenz) {
     }
 }
 
+/* Die JSON-formatierte Antwort des Api aufrufes wird vereinfacht und weitergegeben. */
 function handleResponse() {
     var response = request.response;
 
@@ -109,7 +112,7 @@ function handleResponse() {
     document.getElementById("last-updated").textContent = "Stand der Daten: " + datenstand;
 }
 
-// Initialisierung der Event-Listener.
+/* ===== Initialisierung der Event-Listener: ===== */
 window.addEventListener("load", changeListHeight);
 request.addEventListener("load", handleResponse);
 
